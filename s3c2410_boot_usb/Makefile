@@ -12,4 +12,4 @@ s3c2410_boot_usb: boot_usb.o
 boot_usb.o: boot_usb.c
 	$(CC) $(CFLAGS) -o $@ -c $<
 
-.PHONEY: all clean
+.PHONY: all clean
